@@ -7,7 +7,6 @@ import {HighlightedDirective} from './directives/highlighted.directive';
 import {NgxUnlessDirective} from './directives/ngx-unless.directive';
 import {HttpClientModule} from '@angular/common/http';
 import {FilterByCategoryPipe} from './filter-by-category.pipe';
-import {CourseTitleComponent} from '../course-title/course-title.component';
 
 @NgModule({
   imports: [
