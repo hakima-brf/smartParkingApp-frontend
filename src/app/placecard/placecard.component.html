@@ -1,0 +1,22 @@
+
+<div class="placecard" *ngIf="place" #container>
+
+  <div class="place-title">
+
+      {{  place.description }}
+
+  </div>
+
+  <div class="place-etage">
+
+    {{  place.category }}
+
+</div>
+
+  
+
+ 
+
+  <button (click)="onSaveClicked(courseTitle.value)">reserve</button>
+
+</div>

@@ -1,0 +1,32 @@
+<div class="course-card" *ngIf="course" #container>
+
+  <div class="course-title">
+
+      {{ course.description }}
+
+  </div>
+
+ 
+
+  <div class="course-description">
+
+    {{ course.category }}
+
+  </div>
+
+  <div class="course-category">
+
+    
+
+
+  </div>
+
+  <button class="btn" (click)="onSaveClicked(courseTitle.value)">reserve</button>
+
+</div>
+
+
+
+
+
+
